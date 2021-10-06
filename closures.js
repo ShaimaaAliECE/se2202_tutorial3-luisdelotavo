@@ -1,6 +1,6 @@
-let sum = 1;
 let powerOf = function (power) {
     let innerFunction = function (value) {
+        let sum = 1;
         for (let i = 0; i < power; i++) 
         {  sum = sum * value; }
         return sum;
