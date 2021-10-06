@@ -14,7 +14,7 @@ let odd_predicat = function (value)
 
 let undefined_predicate = function (value)
 {
-    if (typeof value === undefined)
+    if (typeof value === "undefined")
     return true;
     else return false;
 };
