@@ -1,6 +1,6 @@
 let even_predicat = function (value)
 {
-    if (value % 2 == 0) 
+    if (value % 2 === 0) 
     return true;
     else return false;
 };
@@ -14,16 +14,18 @@ let odd_predicat = function (value)
 
 let undefined_predicate = function (value)
 {
-    if (typeof value===undefined)
+    if (typeof value === "undefined")
     return true;
-    else return false;
+    else 
+    return false;
 };
 
 let null_predicate = function (value)
 {
-    if (value == null)
+    if (value === null)
         return true;
-    else return false;
+    else 
+    return false;
    
 };
 
